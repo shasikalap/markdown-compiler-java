@@ -11,11 +11,21 @@ You will need [Java 11](https://www.java.com/en/) or higher. Before you begin, y
 If there is a version of Java 11 present, then that is fine else please install it.
 
 ### 1. Building and running application
+
+Mac OS
 ```
-git clone https://github.com/shasikalap/markup-compiler.git
-cd markdown-compiler
+git clone https://github.com/shasikalap/markup-compiler-java.git
+cd markdown-compiler-java
 ./gradlew clean build
 ./gradlew bootRun
+```
+
+Windows
+```
+git clone https://github.com/shasikalap/markup-compiler-java.git
+cd markdown-compiler-java
+gradlew.bat clean build
+gradlew.bat bootRun
 ```
 
 ### 2. Running application from jar
