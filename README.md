@@ -32,7 +32,7 @@ gradlew.bat bootRun
 If you dont want to build application then you can just use the latest jar attached 
 
 ```
-cd markdown-compiler
+cd markdown-compiler-java
 java -jar markup-compiler-0.0.1.jar
 ```
 
